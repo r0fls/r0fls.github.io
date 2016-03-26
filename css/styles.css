@@ -57,17 +57,17 @@ div#image {
 }
 @media screen and (max-width: 800px) and (min-width: 500px){
     #welcome{
-        margin: 175px 50px;
+        margin: 175px 50px 75px 50px;
     }
 }
 @media screen and (min-width: 800px) {
     #welcome{
-        margin: 200px 100px;
+        margin: 200px 100px 100px 100px;
     }
 }
 @media screen and (max-width: 500px) {
     #welcome{
-        margin: 125px 30px;
+        margin: 125px 30px 50px 30px;
         font-size:36px;
     }
 }
@@ -121,7 +121,7 @@ div.footer {
     background: #CCCCCC;
     height: 250px;
 }
-span.bubble {
+div.bubble {
     text-align: center;
     border-radius: 100px;
     float: left;
@@ -132,7 +132,10 @@ span.bubble {
     margin-left: 100px;
     margin-top: 80px;
 }
-
+p.bubble{
+  margin-top: 150px;
+  font-size: 20px;
+}
 div.half {
   margin: 0px auto;
   width: 1000px;
