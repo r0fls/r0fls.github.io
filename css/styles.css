@@ -7,6 +7,8 @@ a{
     text-decoration: none;
 }
 div#header {
+    font-size:18px;
+    color: #303030;
     position: fixed;
     top:0;
     right:0;
@@ -28,12 +30,10 @@ div#header {
 }
 div#logo {
     float: left;
-    color: #303030;
     margin-left: 10px;
 }
 div#nav {
     float: right;
-    color: #303030;
     margin-right: 10px;
 }
 div#image {
@@ -115,6 +115,7 @@ div.section2 {
     height: 550px;
 }
 div#footer {
+    color:#101010;
     position: relative;
     background: #F0F0F0;
     border-top: 1px solid #C0C0C0;
@@ -122,10 +123,12 @@ div#footer {
     background: #CCCCCC;
     height: 250px;
 }
+div.section{
+    float: left;
+}
 div.bubble {
     text-align: center;
     border-radius: 100px;
-    float: left;
     width: 200px;
     height: 200px;
     background: #F0F0F0;
@@ -137,13 +140,12 @@ p.bubble{
   font-size: 20px;
 }
 div.half {
+  height: 100%;
   margin: 0px auto;
-  width: 1000px;
+  width: 1005px;
 }
 .mid {
   padding-top:200px;
-  position: relative;
-  top: 50%;
   transform: translateY(-50%);
 }
 .red {
@@ -152,6 +154,12 @@ div.half {
 #last {
   position: absolute;
   bottom:12px;
+  width: 100%;
+  text-align: center;
+}
+div#clock{
+  padding-top: 30px;
+  height: 100%;
   width: 100%;
   text-align: center;
 }
