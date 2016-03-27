@@ -114,7 +114,8 @@ div.section2 {
     background: #F0F0F0;
     height: 550px;
 }
-div.footer {
+div#footer {
+    position: relative;
     background: #F0F0F0;
     border-top: 1px solid #C0C0C0;
     border-bottom: 1px solid #B0B0B0;
@@ -144,4 +145,13 @@ div.half {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+.red {
+  color:red;
+}
+#last {
+  position: absolute;
+  bottom:12px;
+  width: 100%;
+  text-align: center;
 }
