@@ -133,7 +133,6 @@ div.bubble {
     margin-top: 80px;
 }
 p.bubble{
-  margin-top: 150px;
   font-size: 20px;
 }
 div.half {
@@ -141,6 +140,7 @@ div.half {
   width: 1000px;
 }
 .mid {
+  padding-top:200px;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
