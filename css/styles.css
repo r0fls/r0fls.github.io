@@ -28,6 +28,11 @@ div#header {
     top: 50%;
     transform: translateY(-50%);
 }
+.twitter-cont{
+    margin-top: 22px;
+    margin-right: 16px;
+    float: right;
+}
 div#logo {
     float: left;
     margin-left: 10px;
@@ -121,7 +126,7 @@ div#footer {
     border-top: 1px solid #C0C0C0;
     border-bottom: 1px solid #B0B0B0;
     background: #CCCCCC;
-    height: 250px;
+    height: 300px;
 }
 div.section{
     float: left;
