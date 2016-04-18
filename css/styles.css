@@ -28,11 +28,6 @@ div#header {
     top: 50%;
     transform: translateY(-50%);
 }
-.twitter-cont{
-    margin-top: 22px;
-    margin-right: 16px;
-    float: right;
-}
 div#logo {
     float: left;
     margin-left: 10px;
@@ -159,12 +154,6 @@ div.half {
 #last {
   position: absolute;
   bottom:12px;
-  width: 100%;
-  text-align: center;
-}
-div#clock{
-  padding-top: 30px;
-  height: 100%;
   width: 100%;
   text-align: center;
 }
