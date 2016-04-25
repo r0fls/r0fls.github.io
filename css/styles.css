@@ -62,7 +62,7 @@ div#image {
 }
 @media screen and (min-width: 800px) {
     #welcome{
-        margin: 200px 100px 100px 100px;
+        margin: 275px 100px 100px 100px;
     }
 }
 @media screen and (max-width: 500px) {
@@ -101,7 +101,7 @@ div#btn{
 }
 div#body {
     width: 100%;
-    margin-top: 710px;
+    margin-top: 60%;
 }
 div.section1 {
     width: 100%;
