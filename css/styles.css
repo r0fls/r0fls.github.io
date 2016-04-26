@@ -46,7 +46,7 @@ div#nav {
 div#image {
     text-align:center;
     display:inline-block;
-    background-size: contain;
+    background-size: cover;
     background-image:url('../img/back.jpg');
     width: 100%;
     position:fixed !important;
