@@ -59,7 +59,7 @@ div#image {
 }
 #welcome {
     text-align:center;
-    font-size:50px;
+    font-size:72px;
     color:#F0F0F0;
 }
 @media screen and (max-width: 800px) and (min-width: 500px){
