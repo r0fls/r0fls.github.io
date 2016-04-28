@@ -53,27 +53,27 @@ div#image {
     top:0;
     right:0;
     bottom:0;
+    max-height: 1400px;
     left:0;
     z-index: -1;
-    max-height: 1400px;
 }
 #welcome {
     text-align:center;
     font-size:72px;
     color:#F0F0F0;
 }
-@media screen and (max-width: 800px) and (min-width: 500px){
+@media screen and (max-width: 970px) and (min-width: 600px){
     #welcome{
         margin: 175px 50px 75px 50px;
         font-size: 50px;
     }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 970px) {
     #welcome{
         margin: 275px 100px 100px 100px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     #welcome{
         margin: 125px 30px 50px 30px;
         font-size:36px;
@@ -109,7 +109,7 @@ div#btn{
 }
 div#body {
     width: 100%;
-    margin-top: 60%;
+    margin-top: 100%;
     min-width: 100%;
 }
 div.section1 {
