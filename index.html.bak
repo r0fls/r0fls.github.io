@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>RD Designs</title>
+  <meta name="description" content="RD Designs">
+  <meta name="author" content="Raphael Deem">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.1/css/tether-theme-arrows-dark.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div id="header">
+    <div id="logo" class="vcenter">
+       <a href="">RD Designs</a>
+    </div>
+    <div id="nav" class="vcenter">
+       <a href="#footer">Contact</a>
+    </div>
+  </div>
+  <div id="image">
+      <h1 id="welcome">
+        Welcome to RD Designs, where ideas become reality.
+      </h1>
+      <div id="btn">
+        <a href="#body" class="btn">More</a>
+      </div>
+  </div>
+  <div id="body">
+    <div class="section1">
+      <div class="half">
+        <div class="section">
+        <div class="bubble first">
+          <i class="fa fa-hashtag fa-5x mid"></i>
+          <p class="bubble">Socially connected.</p>
+        </div>
+      </div>
+        <div class="section">
+        <div class="bubble">
+          <i class="fa fa-copyright fa-5x mid"></i>
+          <p class="bubble">Copyright designs.</p>
+        </div>
+      </div>
+        <div class="section">
+        <div class="bubble">
+          <i class="fa fa-reply fa-5x mid"></i>
+          <p class="bubble">Responsive support.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="section2">
+    </div>
+  <div id="footer">
+    <div id="last">
+    <p>Made with <i class="fa fa-heart red"></i> in Portland, OR</p>
+    </div>
+  </div>
+  </div>
+  <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+</body>
+</html>
